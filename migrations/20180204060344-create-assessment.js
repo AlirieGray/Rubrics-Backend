@@ -8,9 +8,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      rubricJSON: {
-        type: Sequelize.JSON
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
