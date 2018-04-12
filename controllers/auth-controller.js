@@ -37,9 +37,13 @@ module.exports = function(app) {
     })
     .catch((err) => {
       if (err) {
-        console.log("Uhh oh!! ", err.message)
+        errors = {};
+        err.errors.forEach((error) => {
+          errors[error.path] = error.message;
+        });
+        console.log("Uhh oh!! ", errors)
         res.json({
-          message: "Uh oh! There was an error",
+          errors,
           signedUp: false
         })
       }
