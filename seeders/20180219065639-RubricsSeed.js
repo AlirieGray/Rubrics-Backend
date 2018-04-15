@@ -4,11 +4,12 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
 
     return queryInterface.bulkInsert('Rubrics', [
-              { name: "Full Stack Web Skills", iconName: 'web', description: "Make School's rubric for assessing competencies and getting a job as a professional in full stack web", userId: 10005, createdAt: new Date(), updatedAt: new Date(), id: 10000 },
-              { name: "Full Stack Mobile Skills", iconName: 'stay_current_portrait', description: "Make School's rubric for assessing competencies and getting a job as a professional in full stack mobile", userId: 10005, createdAt: new Date(), updatedAt: new Date(), id: 10001 },
-              { name: "Success Skills", iconName: 'wb_sunny', description: "Make School's rubric for assessing competencies for professional skills and best practices", userId: 10005, createdAt: new Date(), updatedAt: new Date(), id: 10002 },
-              { name: "Internship & Job Readiness", iconName: 'work', description: "Make School's rubric for assessing competencies and readiness for getting a job/internship", userId: 10005, createdAt: new Date(), updatedAt: new Date(), id: 10003 },
-              { name: "Technical Interview: Junior Lvl Engineer", iconName: 'code', description: "Make School's rubric for assessing competencies technical interviewing and whiteboarding", userId: 10005, createdAt: new Date(), updatedAt: new Date(), id: 10004 },
+              { name: "Full Stack Web Skills", description: "Make School's rubric for assessing competencies and getting a job as a professional in full stack web", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10000 },
+              { name: "Full Stack Mobile Skills", description: "Make School's rubric for assessing competencies and getting a job as a professional in full stack web", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10001 },
+              { name: "Internship/Job Readiness", description: "Make School's rubric for assessing competencies and readiness for getting a job/internship", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10003 },
+              { name: "Course Performance", description: "Make School's rubric for assessing course performance in any course", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10003 },
+              { name: "Code Review Rubric", description: "Make School's rubric for assessing code quality and organization", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10004 },
+              { name: "Technical Interview for Junior Software Engineer", description: "Make School's rubric for assessing competencies technical interviewing and whiteboarding", userId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10005 },
           ], {});
 
     /*

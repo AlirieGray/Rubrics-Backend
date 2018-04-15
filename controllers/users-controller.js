@@ -75,7 +75,9 @@ module.exports = function(app) {
   //UPDATE USER
   app.put('/users/:userId', function(req, res) {
     console.log('PUT user:', req.params.userId);
-    res.redirect('/');
+    res.json({
+      message: 'Successfully updated user'
+    })
   });
 
   //DELETE USER

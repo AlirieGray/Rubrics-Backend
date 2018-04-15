@@ -7,6 +7,13 @@ module.exports = (sequelize, DataTypes) => {
       validate: {
         isAlphanumeric: true
       }
+    },
+    multiplier: {
+      type: DataTypes.FLOAT,
+      defaultValue: 1.0,
+      validate: {
+        min: 0
+      }
     }
   }, {
     classMethods: {
