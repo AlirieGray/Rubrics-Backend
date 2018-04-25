@@ -75,6 +75,45 @@ module.exports = {
               { name: "Backups and DB Transfer",  competencyId: 10006, createdAt: new Date(), updatedAt: new Date(), id: 10062 },
 
 
+              // Success Skills
+              { name: "Timeliness",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30063 },
+              { name: "Absenses",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30064 },
+              { name: "Responsiveness",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30065 },
+              { name: "Awareness",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30066 },
+              { name: "Organization",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30067 },
+              { name: "Responsibility",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30068 },
+              { name: "Creditation",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30069 },
+              { name: "Hygiene",  competencyId: 20014, createdAt: new Date(), updatedAt: new Date(), id: 30070 },
+
+              { name: "Daily Agenda",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30071 },
+              { name: "Coding",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30072 },
+              { name: "Prioritizes",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30073 },
+              { name: "Scoping",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30074 },
+              { name: "Planning",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30075 },
+              { name: "Code Committing",  competencyId: 20015, createdAt: new Date(), updatedAt: new Date(), id: 30076 },
+
+              { name: "Deadlines",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30077 },
+              { name: "Ownership",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30078 },
+              { name: "Delegation",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30079 },
+              { name: "Seek Feedback",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30080 },
+              { name: "Voicing Opinion",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30081 },
+              { name: "Receptiveness",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30082 },
+              { name: "Feedback (Code)",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30083 },
+              { name: "Gives Feedback",  competencyId: 20016, createdAt: new Date(), updatedAt: new Date(), id: 30084 },
+
+              { name: "Self-Improvement",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30085 },
+              { name: "Habits",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30086 },
+              { name: "Mindset",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30087 },
+              { name: "Risk-Taking",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30088 },
+              { name: "Self-reliance",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30089 },
+              { name: "Empathy",  competencyId: 20017, createdAt: new Date(), updatedAt: new Date(), id: 30090 },
+
+              { name: "Core Communication",  competencyId: 20018, createdAt: new Date(), updatedAt: new Date(), id: 30091 },
+              { name: "Mannerisms",  competencyId: 20018, createdAt: new Date(), updatedAt: new Date(), id: 30092 },
+              { name: "Communication Level",  competencyId: 20018, createdAt: new Date(), updatedAt: new Date(), id: 30093 },
+              { name: "Public Speaking",  competencyId: 20018, createdAt: new Date(), updatedAt: new Date(), id: 30094 },
+              { name: "Situational Awareness",  competencyId: 20018, createdAt: new Date(), updatedAt: new Date(), id: 30095 },
+
 
               // Internship and Job Readiness Rubric
               { name: "Collection and Presentation",  competencyId: 10015, createdAt: new Date(), updatedAt: new Date(), id: 10063 },

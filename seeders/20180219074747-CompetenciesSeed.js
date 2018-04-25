@@ -4,7 +4,7 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
 
     return queryInterface.bulkInsert('Competencies', [
-              // Full-Stack Web
+              //Web - Full Stack
               { name: "HTML and Templating",  rubricId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10000 },
               { name: "CSS",  rubricId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10001 },
               { name: "Client-Side Javascript",  rubricId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10002 },
@@ -13,7 +13,14 @@ module.exports = {
               { name: "Testing and Debugging",  rubricId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10005 },
               { name: "Databases - SQL and NoSQL",  rubricId: 10000, createdAt: new Date(), updatedAt: new Date(), id: 10006 },
 
-              // Full-Stack Mobile
+              //Success Skills
+              { name: "Professionalism",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 20014 },
+              { name: "Productivity",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 20015 },
+              { name: "Teamwork and Feedback",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 20016 },
+              { name: "Emotional Intelligence",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 20017 },
+              { name: "Communication",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 20018 },
+
+              //Mobile - Full Stack
               { name: "Swift",  rubricId: 10001, createdAt: new Date(), updatedAt: new Date(), id: 10007 },
               { name: "XCode",  rubricId: 10001, createdAt: new Date(), updatedAt: new Date(), id: 10008 },
               { name: "iOS Frontend",  rubricId: 10001, createdAt: new Date(), updatedAt: new Date(), id: 10009 },
@@ -38,6 +45,7 @@ module.exports = {
               { name: "Technical Interviewing & Live Coding",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 10026 },
               // { name: "Resume, Cover Letter, LinkedIn, & GitHub",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 10027 },
               { name: "Behavioral Inteviewing",  rubricId: 10002, createdAt: new Date(), updatedAt: new Date(), id: 10028 },
+
           ], {});
     /*
       Add altering commands here.
