@@ -19,24 +19,24 @@
   "homepage": "https://github.com/Catislin/rubrics-backend#readme",
   "dependencies": {
     "bcrypt": "^1.0.3",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.18.3",
     "connect-acceptoverride": "0.0.3",
     "cookie": "^0.3.1",
     "cookie-parser": "^1.4.3",
-    "cors": "^2.8.4",
-    "dotenv": "^5.0.0",
-    "express": "^4.16.2",
-    "hoek": "^5.0.3",
-    "jsonwebtoken": "^8.1.1",
-    "open-graph-scraper": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.4",
+    "hoek": "^5.0.4",
+    "jsonwebtoken": "^8.4.0",
+    "open-graph-scraper": "^3.6.0",
     "pg": "^6.4.2",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^4.36.1",
+    "sequelize": "^4.42.0",
     "sequelize-cli": "^3.2.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "chai-http": "^4.0.0",
-    "mocha": "^5.0.5"
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
