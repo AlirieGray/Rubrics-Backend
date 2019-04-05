@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Catislin/rubrics-backend#readme",
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^3.0.2",
     "body-parser": "^1.18.2",
     "connect-acceptoverride": "0.0.3",
     "cookie": "^0.3.1",
